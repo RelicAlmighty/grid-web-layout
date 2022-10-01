@@ -1,0 +1,59 @@
+body {
+    background-image: url('../images/mountain.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    max-width: 946px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.grid-content{
+    display: grid;
+    background-color: darkblue;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-content > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px 25px;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: aqua;
+    box-shadow: rgb(0, 0, 0)2px 10px 10px;
+}
+
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: cornsilk;
+    box-shadow: rgb(0, 0, 0) 4px 7px 9px;
+}
+
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: darkolivegreen;
+    box-shadow: rgb(0, 0, 0)5px 10px 10px;
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: dodgerblue;
+    box-shadow: rgb(0, 0, 0)5px 10px 10px
+}
+
+
+
+
